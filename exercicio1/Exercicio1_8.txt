@@ -1,0 +1,2 @@
+a) O erro está na primeira linha, onde foi inserido um ponto-e-vírgula após o "if".
+b) O erro está na primeira linha, na condição do if, em que se usou '=>' enquanto o certo é '>=', exatamente do modo como se fala (maior ou igual que).
