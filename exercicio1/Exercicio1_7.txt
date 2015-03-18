@@ -1,0 +1,14 @@
+Execução do programa:
+Variável 3 = 7
+Variável 4 = 10.5
+Variável 5 = 10.0
+Variável 4 é maior que 10.0
+Variável 5 é menor igual a 10.0
+
+Justificativa:
+O resultado se deu desse modo porque dadas as variáveis "v1= 21" e "v2= 3", pediu-se primeiro, 
+que dividisse a primeira pela segunda , portanto a primeira resposta foi igual 7. Segundo, pediu-se 
+para dividir para divir "v1" por dois, porém de modo flutuante, o que mostrou o decimal, resultando 
+em 10.5. A diferença para a resposta da variável 5, é que nessa, apaceu somente o valor inteiro, do
+modo como foi pedido.Por último foi feito uma condição, que pedia para verificar se a variável seria
+maior ou menor igual a 10.
