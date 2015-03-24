@@ -1,0 +1,16 @@
+Definir: Tipo Abstrato de Dados, Classe, Objeto, Mensagens.
+
+1- Tipo abstrato de dados e classe: 
+
+O Tipo Abstrato de Dados(TAD) é também conehcido como classes a qual se trata de uma definição, apenas o conceito
+estático do programa, que não existe na memória. A classe possui atributos (variáveis) e operações (métodos).
+
+2- Objetos:
+
+O objeto é o que "da vida à uma classe". Ou seja, se trata da instância, materialização de uma classe. Nesse caso,
+trata-se de um conceito dinâmico, pois aloca espaço na memória.
+
+3- Mensagens:
+
+Mensagem é o modo dos objetos se "comunicarem". Se trata mais especificamene de um pequeno texto(chamda) que só os objetos
+entendem, sendo responsáveis por ativar seus comportamentos e métodos.
