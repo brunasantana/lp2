@@ -1,0 +1,3 @@
+A palavra NEW é responsável por criar/instanciar um objeto, pois aloca espaço na memória. Quando utilizada em um
+aplicativo, ela vai fazer o mesmo que faz com um objeto, vai criar espeço na memória do aparelho a fim de instalar
+o aplicativo.
