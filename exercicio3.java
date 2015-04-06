@@ -8,10 +8,10 @@ public class VerificadorCpf{
 	int [] totalmult = new int [11]; 
 	
 	public void atribuirvalor1(){
-		j=10;
+		j=2;
 		for(int i=8; i>=0; i--){
 			peso[i] = j;	
-			j--;
+			j++;
 		
 		}
 	}
@@ -21,6 +21,7 @@ public class VerificadorCpf{
 		Scanner input = new Scanner (System.in);
 		System.out.print( "Digite os nove primeiros dígitos do seu CPF: ");
 		String dig = input.next();
+		System.out.println(" ");
 		
 		for(i=0; i<9; i++){
 			char caracter = dig.charAt(i);
@@ -33,7 +34,6 @@ public class VerificadorCpf{
 		
 		for (i=0; i<9; i++){
 			totalmult[i]= cpf[i]*peso[i];
-			System.out.println (" - CPF x peso: " + cpf[i]+ " " + peso[i]);
 		}	
 	}
 
@@ -46,14 +46,16 @@ public class VerificadorCpf{
 		System.out.println (" - A soma foi: " + this.soma);
 		div= soma/11;
 		resto = soma%11;
-		System.out.println (" - O resto foi: " + this.resto);		
+		System.out.println (" - O resto foi: " + this.resto);	
+		System.out.println(" ");	
 		if (resto<2){
 			x=0;
 		}else{
 			x= (11 - resto);		
 		}
 
-		System.out.println("O primeiro dígito é: " + this.x);
+		System.out.println(" //  O primeiro dígito é: " + this.x);
+		System.out.println(" ");
 	}
 	
 	public void adicionarvalor1(){	 
@@ -62,10 +64,10 @@ public class VerificadorCpf{
 	}
 
 	public void atribuirvalor2(){
-			j=11;	
+			j=2;	
 			for(int i=9; i>=0; i--){
 				peso[i] = j;
-				j--;
+				j++;
 			}
 	}
 
@@ -74,7 +76,6 @@ public class VerificadorCpf{
 		
 		for (i=0; i<10; i++){		
 			totalmult[i]= cpf[i]*peso[i];
-			System.out.println (" - CPF x peso: " + cpf[i]+ " " + peso[i]);
 		}
 	}
 
@@ -88,7 +89,8 @@ public class VerificadorCpf{
 		System.out.println (" - A soma foi: " + this.soma);
 		div= soma/11;
 		resto = soma%11;
-		System.out.println (" - O resto foi: " + this.resto);	
+		System.out.println (" - O resto foi: " + this.resto);
+		System.out.println(" ");	
 		
 		if (resto<2){
 			y=0;
@@ -96,7 +98,8 @@ public class VerificadorCpf{
 			y= (11 - resto);		
 		}
 
-		System.out.println("O segundo dígito é: " + this.y);
+		System.out.println("  //  O segundo dígito é: " + this.y);
+		System.out.println(" ");
 	}
 
 	public void adicionarvalor2(){	 
@@ -106,11 +109,12 @@ public class VerificadorCpf{
 
 	public void imprimirCpf(){
 		
-		System.out.print("O valor inteiro do CPF é: " );
+		System.out.println("O VALOR INTEIRO DO CPF É: " );
 
 		for (i=0; i<11; i++){
 			System.out.print(cpf[i]);
 		}
+		System.out.println(" ");
 	}
 
 	public static void main (String [] args){
